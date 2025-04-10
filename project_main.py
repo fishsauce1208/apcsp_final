@@ -6,6 +6,7 @@ mask = 0
 bow_and_arrow = 0
 roll_history = []
 
+#comment from chu ti
 def shop():
     global robber_money
     global car
