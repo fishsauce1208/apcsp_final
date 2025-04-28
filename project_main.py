@@ -97,10 +97,10 @@ def rob_bank():
         else:
             print("Please select a valid answer.")
 
-def show_robber_options():
+def show_robber_options(name):
     print("----------")
     while True:    
-        selected_option = input("You are a robber. What would you like to do? \n rob bank\n buy weapons \n view items\n more info\n")
+        selected_option = input(f"Hello {name}! You are a robber. What would you like to do? \n rob bank\n buy weapons \n view items\n more info\n")
         if selected_option == "rob bank":
             rob_bank()
         elif selected_option == "buy weapons":
@@ -120,7 +120,6 @@ def show_robber_options():
     
 
 name = input("What is your name? ")
-print(f"\nHello {name}! This game is called 'Robber Rampage'")
 
 print("The objective of this game is simple, rob banks to buy as much items as possible.")
 print("The more items you buy, the more points you get.")
