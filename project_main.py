@@ -6,6 +6,7 @@ mask = 0
 bow_and_arrow = 0
 roll_history = []
 
+#comment from chu ti
 def shop():
     global robber_money
     global car
@@ -119,7 +120,6 @@ def show_robber_options(name):
     
 
 name = input("What is your name? ")
-print(f"\nHello {name}! This game is called 'Robber Rampage'")
 
 print("The objective of this game is simple, rob banks to buy as much items as possible.")
 print("The more items you buy, the more points you get.")
